@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+
+.Box {
+    position: relative;
+    width: 200px;
+    height: 400px;
+}
+
+.Karobka {
+    position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 250px;
+            height: 250px;
+            background: rgb(177, 88, 47);
+            
+            
+}
+
+.BlackOut {
+    position: absolute;
+            top: 90px;
+            width: 50px;
+            height: 50px;
+            background: #000000;
+top: 145px;
+left: 75px;
+border-radius: 50%;
+        }
+
+        .eye {
+            content: "";
+            position: absolute;
+            top: 157px;
+            left: 92px;
+            width: 15px;
+            height: 25px;
+            background: radial-gradient(circle, #ffffff 60%, #555 100%);
+            border-radius: 50%;
+            animation: blink 5s infinite;
+        }
+
+        @keyframes blink {
+            0%, 90%, 100% {
+                height: 25px;
+            }
+            95% {
+                height: 5px;
+            }
+        }
+
+        
