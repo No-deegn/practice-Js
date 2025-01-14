@@ -1,0 +1,105 @@
+* {
+padding: 0;
+    margin: 0;
+}
+body {
+justify-content: center;
+    background-color: green;
+display: flex;
+margin: 0;
+overflow: hidden;
+}
+
+.road{
+width: 500px;
+height: 100vh;
+background: gray;
+
+}
+.Tree_1{
+width: 250px;
+height: 300px;
+position: absolute;
+transform: translate(400px, -15vh);
+}
+
+.car{
+position: absolute;
+width: 100px;
+height: 200px;
+bottom: 0;
+transform: translateY(-10vh);
+}
+.Tree_2{
+width: 300px;
+transform: translate(400px, 20vh);
+position: absolute;
+
+}
+.Tree_3{
+width: 400px;
+transform: translate(400px, 55vh);
+position: absolute;
+
+}
+.Tree_4{
+width: 260px;
+transform: translate(-400px, 20vh);
+position: absolute;
+
+}
+.Tree_5{
+width: 300px;
+transform: translate(-400px, 60vh);
+position: absolute;
+
+}
+.Tree_6{
+width: 310px;
+transform: translate(-400px, -15vh);
+position: absolute;
+
+}
+
+.Play{
+background: transparent;
+position: fixed;
+border: none;
+padding: 0;
+top: 10px;
+right: 10px;
+cursor: pointer;
+transition: transform .3s ease;
+}
+
+.Play:hover{
+
+    transform: scale(1.2);
+}
+
+.Play img{
+    width: 70px;
+  
+}
+.Pdd{
+    position: absolute;
+width: 100px;
+height: 200px;
+
+
+}
+.yama{
+    width: 100px;
+  
+
+}
+
+.Znak{
+    width: 100px;
+
+
+}
+
+.Play .Pause{
+    display: none;
+}
